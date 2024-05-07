@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Meta Desprición -->
+	<meta name="description" content="Frase descripción de la Web, máx. 150 palabras">
+
+	<!-- Meta Keywords -->
+	<meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3">
+
+	<!-- Meta Author -->
+	<meta name="author" content="Joan Giner Agüera y Judith Oliva Pérez">
+
+	<!-- Copyright -->
+	<meta name="copyright" content="Propietario del Copyright Joan Giner Agüera y Judith Oliva Pérez">
+
+	<!-- Meta Revisión -->
+	<meta name="revised" content="Abril 2024">
+
+	<!-- Favicon - Icono Logo Web para el navegador -->
+	<link rel="icon" type="image/png" href="IMG/Favicon.png">
+
+	<!-- Enlace a cargar CSS de Proyecto -->
+	<link rel="stylesheet" href="CSS/productos.css">
+
+	<script src="JS/scriptProductos.js"></script>
+
+	<title>Cottet</title>
+
+</head>
+<body>
+
+	<div id="pantallaCargaGeneral">
+		<img id="logoImagen3" src="IMG/logo.png" alt="">
+				<div id="barraCarga">
+					<div id="movimientoBarra2"></div>
+				</div>
+	</div>
+
+	<div id="error404" class="error404">
+		<h1>
+			Este servicio no esta disponible
+		</h1>
+
+		<h2>
+			Pronto arreglaremos este imprevisto.
+		</h2>
+	</div>
+
+	<header>
+			
+		<div class="cajaGrande" id="movimiento">
+			<div id="logo">
+				<a href="home.html"><img id="logoImagen" src="IMG/logo.png" alt=""></a>
+			</div>
+			<div id="menuDentro">
+					<a href="#" onclick="abrirError()"><h2 id="menu">+Información</h2></a>
+					<a href="rebajas.html"><h2 id="menu1">Rebajas</h2></a>
+					<a href="citaPrevia.html"s><h2 id="menu2">Pedir Cita</h2></a>
+					<a href="#" onclick="abrirError()"><h2 id="menu3">Audiologia</h2></a>
+					<a href="#" onclick="abrirError()"><h2 id="menu4">Lentillas</h2></a>
+					<a href="#" onclick="abrirError()"><h2 id="menu5">Gafas de Deporte</h2></a>
+					<a href="gafasDeSol.html"><h2 id="menu6">Gafas de Sol</h2></a>
+					<a href="#" onclick="abrirError()"><h2 id="menu7">Gafas Graduadas</h2></a>
+						</div>
+			<div class="menuBurguer2" id="burguerMenu2" onclick="cerrarMenu()">
+					</div>
+				<div class="menuBurguer" id="burguerMenu" onclick="abrirMenu()">
+
+					<div id="burguer1" class="burguerMenu">	
+					</div>
+					<div id="burguer2" class="burguerMenu2">
+					</div>
+
+				</div>
+
+		</div>
+		
+	</header>
+
+	<!--------- Accesibilidad --------->
+
+	<div id="accesibilidad">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 316"><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="cls-1" d="M157.6,307.37c-82.16,0-148.9-66.78-149-149.12a149.37,149.37,0,1,1,149,149.12Zm132.26-149A132.1,132.1,0,0,0,158.22,26.14c-72.51-.23-132,59.16-132.08,131.78S85.29,289.77,158.05,289.86C230.39,289.94,289.79,230.67,289.86,158.34Z"/><path class="cls-2" d="M289.86,158.34c-.07,72.33-59.47,131.6-131.81,131.52-72.76-.09-132-59.29-131.91-131.94s59.57-132,132.08-131.78A132.1,132.1,0,0,1,289.86,158.34ZM201,257.1c8.58-.1,13.2-8,9.23-16.51Q200,218.68,189.17,197c-5.95-12-9.36-24.45-9.19-37.94.12-9.15-.51-18.31-.81-27.46-.35-10.74-.38-10.82,9.91-14.85,13-5.11,26.08-10,39.1-15.09,5.88-2.28,8-6,6.52-11.07-1.38-4.64-5.29-6.35-11.4-4.68-11.06,3-22.27,5.69-33.09,9.43a95.67,95.67,0,0,1-63.63.27c-11.65-3.91-23.64-6.84-35.52-10-4.77-1.29-8.17.57-9.6,4.71a8,8,0,0,0,4.27,10.46c1.18.59,2.46,1,3.7,1.47,13.49,5.24,27,10.53,40.48,15.67,5.17,2,7.52,5.08,7.12,10.95-.73,10.46-.82,21-1,31.45a81.92,81.92,0,0,1-8.56,35.09c-7.32,14.95-14.48,30-21.73,44.93-1.42,2.94-2.26,5.91-1.09,9.14,1.55,4.29,4.54,7,9.07,7.57,5.51.7,9.17-2.14,11.74-6.74q13.88-24.82,27.8-49.64c1.09-1.94,1.63-4.68,4.55-4.77,3.21-.1,3.86,2.83,5,4.9,9.15,16.24,18.21,32.52,27.31,48.79C192.53,253.81,195.6,257.11,201,257.1ZM157.92,95a18,18,0,1,0,.18-36A17.78,17.78,0,0,0,140,76.83,18,18,0,0,0,157.92,95Z"/><path class="cls-1" d="M201,257.1c-5.38,0-8.45-3.29-10.83-7.56-9.1-16.27-18.16-32.55-27.31-48.79-1.16-2.07-1.81-5-5-4.9-2.92.09-3.46,2.83-4.55,4.77q-14,24.8-27.8,49.64c-2.57,4.6-6.23,7.44-11.74,6.74-4.53-.58-7.52-3.28-9.07-7.57-1.17-3.23-.33-6.2,1.09-9.14,7.25-15,14.41-30,21.73-44.93A81.92,81.92,0,0,0,136,160.27c.17-10.49.26-21,1-31.45.4-5.87-1.95-9-7.12-10.95-13.52-5.14-27-10.43-40.48-15.67-1.24-.48-2.52-.88-3.7-1.47a8,8,0,0,1-4.27-10.46c1.43-4.14,4.83-6,9.6-4.71,11.88,3.21,23.87,6.14,35.52,10a95.67,95.67,0,0,0,63.63-.27c10.82-3.74,22-6.4,33.09-9.43,6.11-1.67,10,0,11.4,4.68,1.49,5-.64,8.79-6.52,11.07-13,5.06-26.09,10-39.1,15.09-10.29,4-10.26,4.11-9.91,14.85.3,9.15.93,18.31.81,27.46-.17,13.49,3.24,25.95,9.19,37.94q10.79,21.66,21,43.59C214.18,249.08,209.56,257,201,257.1Z"/><path class="cls-1" d="M157.92,95A18,18,0,0,1,140,76.83a18,18,0,1,1,36,.7A18.06,18.06,0,0,1,157.92,95Z"/><path class="cls-2" d="M158,316C70.88,316,0,245.12,0,158S70.88,0,158,0,316,70.88,316,158,245.12,316,158,316Zm0-306C76.39,10,10,76.39,10,158S76.39,306,158,306s148-66.39,148-148S239.61,10,158,10Z"/></g></g></svg>
+	</div>
+	<section id="producto">
+	 	<div class="colProducto">
+	 		
+	 		<div id="colProductoImagenes">
+
+	 			<img class="imgCarrusel" src="IMG/gafasp1.jpg" alt="bolso">
+	 			<img class="imgCarrusel" src="IMG/gafasp2.jpg" alt="bolso">
+	 			<img class="imgCarrusel" src="IMG/gafasp3.jpg" alt="bolso">
+
+	 		</div>
+	 		<div id="colProductoImagenGrande">
+	 			<img id="imgGrande" src="IMG/gafasp1.jpg" alt="bolso">
+	 		</div>
+	 	</div>
+	 
+
+
+	 	<div id="provando">
+	 	<div class="colProducto2">
+	 			<h1 id="tituloProducto">Philipp Plein</h1>
+	 			<h2 id="precioBolso">430,50€</h2>
+	 			<div class="colBotonCompra">
+	 				<button class="boton1">Añadir a la bolsa</button> <button class="boton2">
+	 					<svg class="boton22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+	 					</button>
+	 			</div> 
+	 	</div>
+	 	
+	 	<div class="colProducto3">
+	 		<div id="contAcordeon">
+	 			<h2 class="tituloAcordeon" id="tituloAcordeon">
+	 				Descripcion
+	 				<svg class ="svgFlecha" id="svgFlecha" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+	 				</svg>
+	 			</h2>
+	 			<p class="textoAcordeon">Gafas de sol Unisex Philipp Plein SPP050</p>
+
+	 			<h2 class="tituloAcordeon2" id="tituloAcordeon2" >Detalles del producto
+	 				<svg class ="svgFlecha" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+	 				</svg>
+	 			</h2>
+	 			<p class="textoAcordeon"><b>Estilo:</b> Luxury <br>
+										
+										<b>Forma:</b> Cuadrada<br>
+										<b>Género:</b> Unisex <br>
+										<b>Material:</b> Metal <br>
+										<b> Color:</b> Gris <br>
+										</p>
+
+	 			<h2 class="tituloAcordeon3" id="tituloAcordeon3" >Garantias Cottet
+	 					<svg class ="svgFlecha" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+	 				</svg>
+	 			</h2>
+	 			<p class="textoAcordeon"><b>Garantía de Compra</b>
+	 				<br>
+
+					Todos nuestros productos tienen 3 años de garantía ante cualquier defecto de fabricación, excepto aquellos que son perecederos en un plazo inferior. 
+
+					 
+					<br>
+					<b>Garantia de Graduación</b>
+					<br>
+					Si durante los 4 meses posteriores a la fecha de la receta de graduación se produce un cambio en la misma, le cambiaremos las lentes sin cargas por otros nuevos del mismo valor.
+
+					 
+					<br>
+					<b>Garantía de Adaptación</b>
+					<br>
+					Dispones de 4 meses para probar tus gafas graduadas nuevas. Si durante ese plazo, no se adapta a ellas o no le son cómodos, se las ajustaremos o cambiaremos sin ninguna carga por unas nuevas del mismo valor.
+
+					 
+					<br>
+					<b>Garantía estética </b>
+					<br>
+					Dispone de 4 meses desde el momento de la compra de sus gafas graduadas para cambiar la montura por motivos estéticos.
+
+					El cambio por garantía estética no incluye las lentes. Éstas se tendrán que poder adaptar en la nueva montura. Si fuera necesario hacerlas nuevas, se cobrará el 50% de su pvp (montaje gratuito).</p>
+
+
+	 			<h2 class="tituloAcordeon4" id="tituloAcordeon4" >Envios y Devoluciones
+	 					<svg class ="svgFlecha" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+	 				</svg>
+	 			</h2>
+	 			<p class="textoAcordeon"> <b>Recibe tu pedido entre 24-72 horas</b> 
+	 				<br>
+					Todos los envíos son gratuitos en importaciones superiores a 30€, en península. Los envíos a Canarias, y resto de Europa, tienen coste de envío
+
+					Recibe tu pedido en un plazo de 24-72 horas en productos en Stock, y productos de lentillas de 2 a 7 días.
+
+					Envíos a tu centro Cottet más cercano, más de 36 centros (24-72 horas)
+
+					Sábado, domingo y festivos no contabilizan.
+
+					 <br>
+
+					<b>Cambios y devoluciones gratis</b>
+
+					<br>
+					Dispone de un plazo de 30 días naturales para poderejercer su desistimiento y efectuar su devolución, de forma online o en tienda.
+
+					Ambos servicios son totalmente gratuitos en España.
+
+					Si tienes más dudas, accede a nuestro apartado de /Envíos y Devoluciones </p>
+
+
+	 			<h2 class="tituloAcordeon5" id="tituloAcordeon5" >Opciones verificadas
+	 				<svg class ="svgFlecha" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+	 				</svg>
+	 			</h2>
+	 			<p class="textoAcordeon">Este producto aún no ha sido valorado.</p>
+	 		</div>
+	 	</div>
+	 	</div>
+	 </section>
+	 <div id=textorecomendado>
+	 	<h3>OTROS PRODUCTOS RECOMENDADOS</h3>
+	 </div>
+	<section id="galeria">
+		<div class="parteDeDentroGaleria">
+	 		
+	 		<div class="imgGal" onclick="abrirError()">
+				<img src="IMG/g5.png" alt="foto Gafas 1">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-ban</h3>
+					<p>430,50€</p>
+					</div>
+					<p>Gafas de sol Ray-ban</p>
+				</div>
+			</div>
+	 		<div class="imgGal" onclick="abrirError()">
+				<img src="IMG/g3.png" alt="foto Gafas 3">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-Ban</h3>
+					<p>142€</p>
+					</div>
+					<p>Gafas de sol / ROUND </p>
+				</div>
+			</div>
+	 		<div class="imgGal" onclick="abrirError()">
+				<img src="IMG/g9.png" alt="foto Gafas 9">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-Ban</h3>
+					<p>99€</p>
+					</div>
+					<p>Gafas de sol WAYFARER </p>
+				</div>
+			</div>
+	 		<div class="imgGal" onclick="abrirError()">
+				<img src="IMG/g7.png" alt="foto Gafas 7">
+				<div class="texto">
+					<div class="texto2"><h3>Silhouette</h3>
+					<p>289€</p>
+					</div>
+					<p>Gafas de Sol Silhouette</p>
+				</div>
+			</div>
+	 	</div>
+	 </section>
+	<footer>
+		<div id="footer">
+			<div id="textoFooter">
+					<p class="botonFooter" onclick="abrirError()">
+						Productos
+					</p>
+
+                    <p class="botonFooter" onclick="abrirError()">
+                    	Información y Ayuda
+                    </p>
+
+                    <p class="botonFooter" onclick="abrirError()">
+                    	Sobre Nosotros
+                    </p>
+
+                    <p class="botonFooter" onclick="abrirError()">
+                    	Avisos Legales
+                    </p>
+
+                    <p class="botonFooter" onclick="abrirError()">
+                    	Contáctanos
+                    </p>
+			</div>
+			<div id="logoCottet">
+				<h1>Vive con la mirada</h1>
+				<img id="" src="IMG/iconLogo.png" alt="">
+			</div>
+			<div id="copy">
+				<p>Copyright©  Todos los derechos reservados. Creado por Joan Giner y Judith Oliva, para la escuela ESDA Llotja.</p>
+			</div>
+		</div>
+	</footer>
+	<script>
+		todoAcordeon();
+		todoAcordeon2();
+		todoAcordeon3();
+		todoAcordeon4();
+		todoAcordeon5();
+		todoCarrusel();
+		todoGaleria();
+	</script>
+
+</body>
+</html>

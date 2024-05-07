@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Meta Desprición -->
+	<meta name="description" content="Frase descripción de la Web, máx. 150 palabras">
+
+	<!-- Meta Keywords -->
+	<meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3">
+
+	<!-- Meta Author -->
+	<meta name="author" content="Joan Giner Agüera y Judith Oliva Pérez">
+
+	<!-- Copyright -->
+	<meta name="copyright" content="Propietario del Copyright Joan Giner Agüera y Judith Oliva Pérez">
+
+	<!-- Meta Revisión -->
+	<meta name="revised" content="Febrero 2024">
+
+	<!-- Favicon - Icono Logo Web para el navegador -->
+	<link rel="icon" type="image/png" href="IMG/Favicon.png">
+
+	<!-- Enlace a cargar HTML de Proyecto -->
+	<link rel="stylesheet" href="gafasDeSol.html">
+	<!-- Enlace a cargar CSS de Proyecto -->
+	<link rel="stylesheet" href="CSS/gafasDeSol.css">
+
+	<script src="JS/scriptGafasDeSol.js"></script>
+
+	<title>Cottet</title>
+
+</head>
+
+<body>
+
+	<div id="pantallaCargaGeneral">
+		<img id="logoImagen3" src="IMG/logo.png" alt="">
+				<div id="barraCarga">
+					<div id="movimientoBarra2"></div>
+				</div>
+	</div>
+
+	<div id="error404" class="error404">
+		<h1>
+			Este servicio no esta disponible
+		</h1>
+
+		<h2>
+			Pronto arreglaremos este imprevisto.
+		</h2>
+	</div>
+
+	<header>
+			
+		<div class="cajaGrande" id="movimiento">
+			<div id="logo">
+				<a href="home.html"><img id="logoImagen" src="IMG/logo.png" alt=""></a>
+			</div>
+			<div id="menuDentro">
+					<a href="#" onclick="abrirError()"><h2 id="menu">+Información</h2></a>
+					<a href="rebajas.html"><h2 id="menu1">Rebajas</h2></a>
+					<a href="citaPrevia.html"><h2 id="menu2">Pedir Cita</h2></a>
+					<a href="#" onclick="abrirError()"><h2 id="menu3">Audiologia</h2></a>
+					<a href="#" onclick="abrirError()"><h2 id="menu4">Lentillas</h2></a>
+					<a href="#" onclick="abrirError()"><h2 id="menu5">Gafas de Deporte</h2></a>
+					<a href="gafasDeSol.html"><h2 id="menu6">Gafas de Sol</h2></a>
+					<a href="#" onclick="abrirError()"><h2 id="menu7">Gafas Graduadas</h2></a>
+						</div>
+			<div class="menuBurguer2" id="burguerMenu2" onclick="cerrarMenu()">
+					</div>
+				<div class="menuBurguer" id="burguerMenu" onclick="abrirMenu()">
+
+					<div id="burguer1" class="burguerMenu">	
+					</div>
+					<div id="burguer2" class="burguerMenu2">
+					</div>
+
+				</div>
+
+		</div>
+		
+	</header>
+	<!--------- Accesibilidad --------->
+
+	<div id="accesibilidad">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 316"><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="cls-1" d="M157.6,307.37c-82.16,0-148.9-66.78-149-149.12a149.37,149.37,0,1,1,149,149.12Zm132.26-149A132.1,132.1,0,0,0,158.22,26.14c-72.51-.23-132,59.16-132.08,131.78S85.29,289.77,158.05,289.86C230.39,289.94,289.79,230.67,289.86,158.34Z"/><path class="cls-2" d="M289.86,158.34c-.07,72.33-59.47,131.6-131.81,131.52-72.76-.09-132-59.29-131.91-131.94s59.57-132,132.08-131.78A132.1,132.1,0,0,1,289.86,158.34ZM201,257.1c8.58-.1,13.2-8,9.23-16.51Q200,218.68,189.17,197c-5.95-12-9.36-24.45-9.19-37.94.12-9.15-.51-18.31-.81-27.46-.35-10.74-.38-10.82,9.91-14.85,13-5.11,26.08-10,39.1-15.09,5.88-2.28,8-6,6.52-11.07-1.38-4.64-5.29-6.35-11.4-4.68-11.06,3-22.27,5.69-33.09,9.43a95.67,95.67,0,0,1-63.63.27c-11.65-3.91-23.64-6.84-35.52-10-4.77-1.29-8.17.57-9.6,4.71a8,8,0,0,0,4.27,10.46c1.18.59,2.46,1,3.7,1.47,13.49,5.24,27,10.53,40.48,15.67,5.17,2,7.52,5.08,7.12,10.95-.73,10.46-.82,21-1,31.45a81.92,81.92,0,0,1-8.56,35.09c-7.32,14.95-14.48,30-21.73,44.93-1.42,2.94-2.26,5.91-1.09,9.14,1.55,4.29,4.54,7,9.07,7.57,5.51.7,9.17-2.14,11.74-6.74q13.88-24.82,27.8-49.64c1.09-1.94,1.63-4.68,4.55-4.77,3.21-.1,3.86,2.83,5,4.9,9.15,16.24,18.21,32.52,27.31,48.79C192.53,253.81,195.6,257.11,201,257.1ZM157.92,95a18,18,0,1,0,.18-36A17.78,17.78,0,0,0,140,76.83,18,18,0,0,0,157.92,95Z"/><path class="cls-1" d="M201,257.1c-5.38,0-8.45-3.29-10.83-7.56-9.1-16.27-18.16-32.55-27.31-48.79-1.16-2.07-1.81-5-5-4.9-2.92.09-3.46,2.83-4.55,4.77q-14,24.8-27.8,49.64c-2.57,4.6-6.23,7.44-11.74,6.74-4.53-.58-7.52-3.28-9.07-7.57-1.17-3.23-.33-6.2,1.09-9.14,7.25-15,14.41-30,21.73-44.93A81.92,81.92,0,0,0,136,160.27c.17-10.49.26-21,1-31.45.4-5.87-1.95-9-7.12-10.95-13.52-5.14-27-10.43-40.48-15.67-1.24-.48-2.52-.88-3.7-1.47a8,8,0,0,1-4.27-10.46c1.43-4.14,4.83-6,9.6-4.71,11.88,3.21,23.87,6.14,35.52,10a95.67,95.67,0,0,0,63.63-.27c10.82-3.74,22-6.4,33.09-9.43,6.11-1.67,10,0,11.4,4.68,1.49,5-.64,8.79-6.52,11.07-13,5.06-26.09,10-39.1,15.09-10.29,4-10.26,4.11-9.91,14.85.3,9.15.93,18.31.81,27.46-.17,13.49,3.24,25.95,9.19,37.94q10.79,21.66,21,43.59C214.18,249.08,209.56,257,201,257.1Z"/><path class="cls-1" d="M157.92,95A18,18,0,0,1,140,76.83a18,18,0,1,1,36,.7A18.06,18.06,0,0,1,157.92,95Z"/><path class="cls-2" d="M158,316C70.88,316,0,245.12,0,158S70.88,0,158,0,316,70.88,316,158,245.12,316,158,316Zm0-306C76.39,10,10,76.39,10,158S76.39,306,158,306s148-66.39,148-148S239.61,10,158,10Z"/></g></g></svg>
+	</div>
+	<div class="textoTitulo">
+		<h1>Gafas de sol</h1>
+	</div>
+	<div id="filtro">
+		<div class="contFiltro">
+			<div id="bacgroundFiltro2" onclick="cerrarFiltro()"></div>
+			 <div id="bacgroundFiltro" onclick="abrirFiltro()">
+				 <div id="iconoFiltro0">
+				 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="iconoFiltro">
+				 		<path d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z"/>
+				 	</svg>
+				 	<p id="nombreFiltro">Filtro</p>
+				 	
+				 </div>
+			 	<div id="partesDelFiltro">
+			 		<div id="precioFiltro">
+			 			<p>
+			 				Precios:
+			 			</p>
+
+			 			<p id="precioFiltroo">
+			 				125-300€
+			 			</p>
+			 			<div id="barraFiltro">
+			 				<div id="bolaFiltro1">
+			 				</div>
+			 				<div id="bolaFiltro2">
+			 				</div>
+			 			</div>
+			 		</div>
+			 		<div id="formaFiltro1">
+			 		<p>
+			 			Forma:
+			 		</p>
+
+			 		 <div id="cuadradosForma">
+			 			<div id="cuadradoForma1" onclick="filtroSeleccion1()">
+			 			<p id="formasFiltro">
+                    	Cuadrado
+                    	</p>	
+			 			</div>
+			 			<div id="cuadradoForma2" onclick="filtroSeleccion2()">
+			 			<p id="formasFiltro">
+                    	Redonda
+                    	</p>	
+			 			</div>
+			 		</div>
+			 	</div>
+			 	<div id="formaFiltro2">
+			 		<p>
+			 			Marca:
+			 		</p>
+
+			 		 <div id="cuadradosForma">
+			 			<div id="cuadradoForma3" onclick="filtroSeleccion3()">
+			 			<p id="formasFiltro">
+                    	Cottet
+                    	</p>	
+			 			</div>
+			 			<div id="cuadradoForma4" onclick="filtroSeleccion4()">
+			 			<p id="formasFiltro">
+                    	RayBan
+                    	</p>	
+			 			</div>
+			 		</div>
+			 		<div id="cuadradoMarca">
+			 			<div id="cuadradoForma5" onclick="filtroSeleccion5()">
+			 			<p id="formasFiltro">
+                    	Gucci
+                    	</p>	
+			 			</div>
+			 			<div id="cuadradoForma6" onclick="filtroSeleccion6()">
+			 			<p id="formasFiltro">
+                    	MauiJim
+                    	</p>	
+			 			</div>
+			 		</div>
+			 		<div id="cuadradoMarca">
+			 			<div id="cuadradoForma7" onclick="filtroSeleccion7()">
+			 			<p id="formasFiltro">
+                    	Nova
+                    	</p>	
+			 			</div>
+			 			<div id="cuadradoForma8" onclick="filtroSeleccion8()">
+			 			<p id="formasFiltro">
+                    	Moscot
+                    	</p>	
+			 			</div>
+			 		</div>
+			 		<div id="cuadradoMarca">
+			 			<div id="cuadradoForma9" onclick="filtroSeleccion9()">
+			 			<p id="formasFiltro">
+                    	Cebe
+                    	</p>	
+			 			</div>
+			 			<div id="cuadradoForma10" onclick="filtroSeleccion10()">
+			 			<p id="formasFiltro">
+                    	Cartier
+                    	</p>	
+			 			</div>
+			 		</div>
+			 	</div>
+			 	<div id="formaFiltro3">
+			 		<p>
+			 			Género:
+			 		</p>
+
+			 		 <div id="cuadradosForma">
+			 			<div id="cuadradoForma11" onclick="filtroSeleccion11()">
+			 			<p id="formasFiltro">
+                    	Mujer
+                    	</p>	
+			 			</div>
+			 			<div id="cuadradoForma12" onclick="filtroSeleccion12()">
+			 			<p id="formasFiltro">
+                    	Hombre
+                    	</p>	
+			 			</div>
+			 		</div>
+			 		<div id="cuadradoMarca">
+			 			<div id="cuadradoForma13" onclick="filtroSeleccion13()">
+			 			<p id="formasFiltro">
+                    	Niñ@
+                    	</p>	
+			 			</div>
+			 			<div id="cuadradoForma14" onclick="filtroSeleccion14()">
+			 			<p id="formasFiltro">
+                    	Unisex
+                    	</p>	
+			 			</div>
+			 		</div>
+			 	</div>
+			 	</div>
+			</div>
+		</div>
+	</div>
+	<div id="galeriaFoto">
+		<div class="contImgGaleria">
+			
+			<div class="imgGaleria" onclick="abrirError()">
+				<a href="producto.html"><img src="IMG/g1.png" alt="foto Gafas 1"></a>
+				<div class="texto">
+					<div class="texto2"><h3>Philipp Plein</h3>
+					<p>430,50€</p>
+					</div>
+					<p>Gafas de sol Philipp Plein</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g2.png" alt="foto Gafas 2">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-Ban</h3>
+					<p>145€</p>
+					</div>
+					<p>Gafas de sol unisex Ray Ban</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g3.png" alt="foto Gafas 3">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-Ban</h3>
+					<p>142€</p>
+					</div>
+					<p>Gafas de sol / ROUND METAL</p>
+				</div>
+			</div>
+			
+			
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g4.png" alt="foto Gafas 4">
+				<div class="texto">
+					<div class="texto2"><h3>Etnia Barcelona</h3>
+					<p>169€</p>
+					</div>
+					<p>O.RAVAL GR VERDE</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g5.png" alt="foto Gafas 5">
+				<div class="texto">
+					<div class="texto2"><h3>Prada Linea Rossa</h3>
+					<p>189€</p>
+					</div>
+					<p>Gafas de sol Prada</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g6.png" alt="foto Gafas 6">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-Ban</h3>
+					<p>165€</p>
+					</div>
+					<p>Gafas de sol unisex Ray Ban</p>
+				</div>
+			</div>
+
+		
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g7.png" alt="foto Gafas 7">
+				<div class="texto">
+					<div class="texto2"><h3>Silhouette</h3>
+					<p>289€</p>
+					</div>
+					<p>Gafas de Sol Silhouette</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g8.png" alt="foto Gafas 8">
+				<div class="texto">
+					<div class="texto2"><h3>Oakley</h3>
+					<p>174€</p>
+					</div>
+					<p>SATIN CHROM SAPPHIRE</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g9.png" alt="foto Gafas 9">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-Ban</h3>
+					<p>99€</p>
+					</div>
+					<p>Gafas de sol WAYFARER </p>
+				</div>
+			</div>
+
+			
+
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g10.png" alt="foto Gafas 10">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-Ban</h3>
+					<p>99€</p>
+					</div>
+					<p>Gafas de sol Ray-Ban</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g11.png" alt="foto Gafas 11">
+				<div class="texto">
+					<div class="texto2"><h3>Oakley</h3>
+					<p>165€</p>
+					</div>
+					<p>Gafas de sol Oakley</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g12.png" alt="foto Gafas 12">
+				<div class="texto">
+					<div class="texto2"><h3>Persol</h3>
+					<p>249€</p>
+					</div>
+					<p>Gafas de sol - Persol</p>
+				</div>
+			</div>
+
+			
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g13.png" alt="foto Gafas 13">
+				<div class="texto">
+					<div class="texto2"><h3>Ray-Ban</h3>
+					<p>99€</p>
+					</div>
+					<p>Gafas de sol ERIKA</p>
+				</div>
+			</div>
+			<div class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g14.png" alt="foto Gafas 14">
+				<div class="texto">
+					<div class="texto2"><h3>Urban Junior</h3>
+					<p>20,30€</p>
+					</div>
+					<p>Gafas de sol niño</p>
+				</div>
+			</div>
+			<div  class="fueraFoto" class="imgGaleria" onclick="abrirError()">
+				<img src="IMG/g15.png" alt="foto Gafas 15">
+				<div class="texto">
+					<div class="texto2"><h3>Urban Junior</h3>
+					<p>20,30€</p>
+					</div>
+					<p>Gafas de sol niño FROGGY </p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div id="botonespaginas">
+			<div class="contBotones">
+				<button onclick="abrirError()">Anterior</button>
+					<p>¿No encuentras tu estilo?</p>
+				<button onclick="abrirError()">Siguente</button>
+
+			</div>
+	</div>
+	<footer>
+		<div id="footer">
+			<div id="textoFooter">
+					<p class="botonFooter" onclick="abrirError()">
+						Productos
+					</p>
+
+                    <p class="botonFooter" onclick="abrirError()">
+                    	Información y Ayuda
+                    </p>
+
+                    <p class="botonFooter" onclick="abrirError()">
+                    	Sobre Nosotros
+                    </p>
+
+                    <p class="botonFooter" onclick="abrirError()">
+                    	Avisos Legales
+                    </p>
+
+                    <p class="botonFooter" onclick="abrirError()">
+                    	Contáctanos
+                    </p>
+			</div>
+			<div id="logoCottet">
+				<h1>Vive con la mirada</h1>
+				<img id="" src="IMG/iconLogo.png" alt="">
+			</div>
+			<div id="copy">
+				<p>Copyright©  Todos los derechos reservados. Creado por Joan Giner y Judith Oliva, para la escuela ESDA Llotja.</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
