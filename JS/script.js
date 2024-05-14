@@ -1,4 +1,3 @@
-
 if (window.matchMedia("(min-width: 1025px)").matches) {
 
 
@@ -17,6 +16,7 @@ let posActualScroll = document.documentElement.scrollTop;
 // Esto hace que el menu suba y baja
 
   if (posPreviaScroll > posActualScroll) {
+  	document.getElementById("animacion").style.opacity = "1";
   	document.getElementById("movimiento").style.opacity = "1";
     document.getElementById("movimiento").style.top = "0";
     document.getElementById("movimiento").style.backdropFilter = "blur(0px)";
@@ -33,8 +33,10 @@ let posActualScroll = document.documentElement.scrollTop;
   } else  {
 
   	if (posActualScroll<200) {
+  		document.getElementById("animacion").style.opacity = "1";
   	}
   	else {
+  		  		document.getElementById("animacion").style.opacity = "0";
 	    document.getElementById("movimiento").style.top = "-125px";
 
   	}
@@ -139,6 +141,7 @@ function abrirMenu() {
 	for (let i = 0; i < menuOpen.length; i++) {
 	menuOpen[i].style.position = "relative";
 }
+document.getElementById("animacion").style.position = "relative";
 document.getElementById("movimiento").style.top = "0px";
 document.getElementById("burguer1").style.top = "12.5%";
 document.getElementById("burguer1").style.transform = "rotate(45deg)";
@@ -163,6 +166,7 @@ document.getElementById("logo").style.paddingLeft = "5%";
 }
 
 function cerrarMenu() {
+	document.getElementById("animacion").style.position = "absolute";
 	document.documentElement.style.overflow = "auto";
 	document.getElementById("burguer1").style.transform = "rotate(0deg)";
 	document.getElementById("burguer1").style.top = "";
@@ -183,6 +187,7 @@ function cerrarMenu() {
 	document.getElementById("logo").style.justifyContent = "center";
 	document.getElementById("logo").style.padding = "0px";
 }
+
 
 let timeout;
 
@@ -306,6 +311,11 @@ function cambioPagina() {
 	document.getElementById("pantallaCarga").style.opacity = "0";
 	document.getElementById("pantallaCarga").style.display = "none";
 
+}
+
+function inicioSesion() {
+	document.getElementById("inicioSesion").style.height = "0px";
+	document.getElementById("inicioSesion").style.opacity = "0";
 }
 
 }

@@ -752,7 +752,7 @@ p {
 	.imgGaleria{
 		width: calc(48.33% - 40px);
 	}
-	#fueraFoto{
+	.fueraFoto{
 		display: none;
 	}
 	.texto{
